@@ -1,0 +1,39 @@
+body{
+	font-family: georgia, sans-serif;
+}
+
+
+
+h1 {text-align: center;
+	font-family: 'Pacifico', cursive;
+	border-bottom: 2px solid crimson;
+	padding-bottom: 7px;
+}
+h2{font-family:'Pacifico', cursive;}
+
+p{font-style: italic;
+}
+li img{display: block;
+}
+table{border-collapse: collapse;
+	margin: 10px auto;
+}
+td, th {border: 1px solid black;
+	padding: 7px;
+}
+th{background-color: crimson;
+	color: #fff;
+	}
+a{text-decoration: none;
+color: orangered;
+padding: 5px;
+display: inline-block;
+
+}
+a:hover {
+	background-color: orangered;
+	color: #fff;
+}
+a[href$=".com/"] {
+	color: green;
+}

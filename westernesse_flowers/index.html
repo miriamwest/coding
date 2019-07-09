@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Westernesse Flowers</title>
+  <meta charset="utf-8"/>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link href='https://fonts.googleapis.com/css?family=Georgia:300,400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+<header class="container">
+    <div class="text-center">
+  <h1 class="col-sm-8">Westernesse</h1>
+  </div>
+      </header>
+  <header class="container">
+    <div class="text-center">
+  <nav class="col-sm-8">
+
+    <p>Who We Are</p>
+    <p>Making Floral Visions</p>
+    <p>Contact</p>
+      </nav>
+  </div>
+  </header>
+<section class="jumbotron">
+  <div class ="container">
+    <div class = "text-center">
+      <h2>Floral Perfection</h2>
+      <h3>Beauty without Compromise</h3>
+      <a class="btn btn-primary" 
+         href="#" role="button">Enter</a>
+    </div>
+  </div>
+  </section>
+<section class="container">
+  <div class="row">
+    <figure class="col-sm-6">
+      <p>Weddings</p>
+      <image src=https://scontent-dfw5-1.cdninstagram.com/vp/b451697a0e432dd85a50c5fd5b76dc2c/5D924DA8/t51.2885-15/e35/12093397_118056001896247_408718847_n.jpg?_nc_ht=scontent-dfw5-1.cdninstagram.com>
+      </image>
+    </figure>
+     <figure class="col-sm-6">
+       <p>Celebrations</p>
+       <image src=https://scontent-dfw5-1.cdninstagram.com/vp/f3ea2cddc6ada719a88a3d62a6dce7a5/5D79B6FF/t51.2885-15/e15/11378571_688255397945891_1179375241_n.jpg?_nc_ht=scontent-dfw5-1.cdninstagram.com>
+       </image>
+    </figure>
+  </div>
+  <div class ="row">
+     <figure class="col-sm-6">
+       <p>Everyday</p>
+       <image src=https://scontent-dfw5-1.cdninstagram.com/vp/8f6dbe3c0dd440a8205f5f68da2c5bb3/5D78436D/t51.2885-15/e15/10358310_353523131500504_1088334627_n.jpg?_nc_ht=scontent-dfw5-1.cdninstagram.com>
+       </image>
+    </figure>
+     <figure class="col-sm-6">
+       <p>Holiday</p>
+       <image src=https://scontent-dfw5-1.cdninstagram.com/vp/10a1149a37053f6aa91ba7e487e7cc5e/5D8EEC49/t51.2885-15/e15/10865108_760287834009116_1956428536_n.jpg?_nc_ht=scontent-dfw5-1.cdninstagram.com>
+       </image>
+    </figure>
+  </div>
+  </section>
+<footer class="container">
+  <div class="row">
+    <p class="col-sm-4">
+      &copy; 2019 Miriam West
+    </p>
+     <ul class="col-sm-8">
+  <li class="col-sm-1">
+          <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/instagram.svg">
+        </li>
+  <li class="col-sm-1">
+       <img src="https://www.instagram.com/staywildwest”> 
+</li>                
+    </ul>
+  </div>
+  </footer>
+</body>
+</html>
+
+CSS:
+
+body {
+  font-family: Georgia, Garamond;
+  font-weight: 800;
+  color: #f7a2aa;
+  align-items: center;
+  justify-content: center;
+}
+header {
+  padding: 22px 0;
+  display: center;
+  align-items: center;
+  justify-content: center;
+}
+
+header .row,
+footer .row {
+  display: center;
+  align-items: center;
+  justify-content: center;
+}
+
+header h1 {
+  font-weight: 600;
+  margin: 0;
+  display: center;
+  align-items: center;
+  justify-content: center;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header p {
+  padding: 0 22px;
+  margin: 0;
+  display: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.jumbotron {
+  display: flex;
+  align-items: center;
+  background-image: url('https://scontent-dfw5-1.cdninstagram.com/vp/9d0c140dcbcaac3c3d730b141def3661/5D8A71CB/t51.2885-15/e35/56480407_2288401561223151_7771033922079123337_n.jpg?_nc_ht=scontent-dfw5-1.cdninstagram.com');
+  background-size: cover;
+  color: #facac6;
+  height: 500px;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
+}
+
+.jumbotron h2 {
+  font-size: 60px;
+  font-weight: 700;
+  margin: 0;
+  color: #fff;
+}
+
+.jumbotron h3 {
+  margin: 0 0 22px;
+  color: #fff;
+}
+
+section .row img {
+  margin: 0 0 22px;
+  width: 100%;
+}
+
+.col-md-6 {
+  margin: 0 0 22px;
+}
+
+.btn.btn-primary {
+  border-radius: 2px;
+  border: 0px;
+  color: #f7a2aa;
+  text-shadow: none;
+  background-color: #f8f8f8;
+}
+
+.btn.btn-primary:hover {
+  color: #ffffff;
+  background-color: #dedede;
+}
+
+.btn-secondary {
+  background-color: #fdcad0;
+  color: #ffffff;
+  margin: 0 0 30px;
+}
+
+footer {
+  font-size: 12px;
+  padding: 20px 0;
+}
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li img {
+  width: 32px;
+  height: 32px;
+}

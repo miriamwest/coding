@@ -1,0 +1,49 @@
+h1{
+  text-align: right;
+  font-weight: 300;
+  font-style: italic;
+  font-family: helvetica, sans-serif;}
+h2{
+	background-color: green;
+	color: #fff;
+	border: dotted #fff;
+	border-width: 10p;
+}
+/*div#turmoil{
+	text-align: center;
+}
+#battleships {
+	text-align: center;
+}
+#congress {
+	text-align: justify;
+	
+}*/
+ol#pbj{
+   	list-style-type: inline;
+   	align-items: inline;
+  
+   
+}
+
+/*
+
+6
+.	
+Make	all	of	the	list	items	in	the	ordered	list	sit	on	the	same
+row/line
+7
+.	
+In	the	first	
+<div>
+tag	with	the	3	paragraphs	and	headline
+inside,	use	the	‘float’	attribute	again	to	create	a	grid	with	4
+equal-width	items:	the	first	2	paragraphs	should	sit	on	the	first
+row,	with	the	third	paragraph	and	headline	on	the	second	row;
+give	the	paragraphs	background	colors	of	red,	yellow,	and
+green,	respectively,	and	then	give	the	headline	a	background
+color	of	purple
+8
+.	
+Use	only	positioning	to	shift	the	last	item	in	the	ordered	list	up
+4px	and	right	8p5
