@@ -1,0 +1,111 @@
+body {
+  font-family: Georgia, Garamond;
+  font-weight: 800;
+  color: #f7a2aa;
+  align-items: center;
+  justify-content: center;
+}
+header {
+  padding: 22px 0;
+  display: center;
+  align-items: center;
+  justify-content: center;
+}
+
+header .row,
+footer .row {
+  display: center;
+  align-items: center;
+  justify-content: center;
+}
+
+header h1 {
+  font-weight: 600;
+  margin: 0;
+  display: center;
+  align-items: center;
+  justify-content: center;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header p {
+  padding: 0 22px;
+  margin: 0;
+  display: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.jumbotron {
+  display: flex;
+  align-items: center;
+  background-image: url('https://scontent-dfw5-1.cdninstagram.com/vp/9d0c140dcbcaac3c3d730b141def3661/5D8A71CB/t51.2885-15/e35/56480407_2288401561223151_7771033922079123337_n.jpg?_nc_ht=scontent-dfw5-1.cdninstagram.com');
+  background-size: cover;
+  color: #facac6;
+  height: 500px;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
+}
+
+.jumbotron h2 {
+  font-size: 60px;
+  font-weight: 700;
+  margin: 0;
+  color: #fff;
+}
+
+.jumbotron h3 {
+  margin: 0 0 22px;
+  color: #fff;
+}
+
+section .row img {
+  margin: 0 0 22px;
+  width: 100%;
+}
+
+.col-md-6 {
+  margin: 0 0 22px;
+}
+
+.btn.btn-primary {
+  border-radius: 2px;
+  border: 0px;
+  color: #f7a2aa;
+  text-shadow: none;
+  background-color: #f8f8f8;
+}
+
+.btn.btn-primary:hover {
+  color: #ffffff;
+  background-color: #dedede;
+}
+
+.btn-secondary {
+  background-color: #fdcad0;
+  color: #ffffff;
+  margin: 0 0 30px;
+}
+
+footer {
+  font-size: 12px;
+  padding: 20px 0;
+}
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li img {
+  width: 32px;
+  height: 32px;
+}
